@@ -83,10 +83,6 @@ export const TestimonialSection = () => {
         <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
           Testimonials
         </h2>
-
-        <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-          Hear What Our 1000+ Clients Say
-        </h2>
       </div>
 
       <Carousel

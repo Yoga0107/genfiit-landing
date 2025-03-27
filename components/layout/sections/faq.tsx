@@ -13,32 +13,30 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "Is the telehealth app free to use?",
+    answer: "Yes! Our app offers free access to essential healthcare features. However, some premium services may require a subscription.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "How can I book an online consultation?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "You can easily book a consultation through our app by selecting a doctor, choosing a time slot, and confirming your appointment.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+    question: "Are my medical records secure?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Absolutely. We use advanced encryption and security protocols to keep your personal health information safe and confidential.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Can I get a prescription through the app?",
+    answer: "Yes, licensed healthcare professionals can provide e-prescriptions after an online consultation if necessary.",
     value: "item-4",
   },
   {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+    question: "Is the app available in multiple languages?",
+    answer: "Currently, our app supports multiple languages to ensure accessibility for a diverse user base.",
     value: "item-5",
   },
 ];

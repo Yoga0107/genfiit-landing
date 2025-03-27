@@ -7,6 +7,16 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const HeroSection = () => {
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "https://expo.dev/artifacts/eas/fSDQU6qxxzVnTLmF3R6xGY.aab";
+    link.download = "app-release.aab";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+  
   const { theme } = useTheme();
   return (
     <section className="container w-full">
@@ -29,17 +39,14 @@ export const HeroSection = () => {
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-              Get Started
-              <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
-            </Button>
+          <Button 
+      className="w-5/6 md:w-1/4 font-bold group/arrow" 
+      onClick={handleDownload}
+    >
+      Get Started
+      <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
+    </Button>
 
-            <Button
-              asChild
-              variant="secondary"
-              className="w-5/6 md:w-1/4 font-bold"
-            >
-            </Button>
           </div>
         </div>
 
