@@ -10,32 +10,32 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "Shadcn - Landing template",
-  description: "Free Shadcn landing page for developers",
+  title: "Genfiit Landing Page",
+  description: "Genfiit - The Ultimate Fitness Experience",
+  
   openGraph: {
     type: "website",
-    url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    url: "https://genfiit.com",
+    title: "Genfiit Landing Page",
+    description: "Genfiit - The Ultimate Fitness Experience",
     images: [
       {
-        url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+        url: "/logo-hero2.png", 
         width: 1200,
         height: 630,
-        alt: "Shadcn - Landing template",
+        alt: "Genfiit - Landing Page",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
-    images: [
-      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
-    ],
+    site: "https://genfiit.com",
+    title: "Genfiit Landing Page",
+    description: "Genfiit - The Ultimate Fitness Experience",
+    images: ["/logo-hero2.png"], // Path dari public/
   },
 };
+
 
 export default function Home() {
   return (
