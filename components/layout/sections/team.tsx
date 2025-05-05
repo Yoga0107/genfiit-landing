@@ -24,7 +24,7 @@ interface SocialNetworkProps {
 export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
-      imageUrl: "/nazhif-team.png",
+      imageUrl: "/person.jpg",
       firstName: "Nazhif",
       lastName: "Ghifari S. Gz",
       positions: ["Ahli Gizi"],
